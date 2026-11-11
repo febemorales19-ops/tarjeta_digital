@@ -30,7 +30,7 @@ const { toggleMenu, toggleDarkMode, isDarkTheme } = useLayout();
                     </g>
                 </svg>
 
-                <span>Tarjeta Digital</span>
+                <span>Prácticas Vue</span>
             </router-link>
         </div>
 

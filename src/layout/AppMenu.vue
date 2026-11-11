@@ -9,7 +9,10 @@ const model = ref([
     },
     {
         label: 'MÓDULOS',
-        items: [{ label: 'Tarjeta Digital', icon: 'pi pi-fw pi-id-card', to: '/tarjeta' }]
+        items: [
+            { label: 'Tarjeta Digital', icon: 'pi pi-fw pi-id-card', to: '/tarjeta' },
+            { label: 'Punto de Venta', icon: 'pi pi-fw pi-shopping-cart', to: '/pos' }
+        ]
     }
 ]);
 </script>
