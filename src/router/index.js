@@ -13,6 +13,11 @@ const router = createRouter({
                     alias: '/tarjeta',
                     name: 'dashboard',
                     component: () => import('@/views/TarjetaDigital.vue')
+                },
+                {
+                    path: '/pos',
+                    name: 'pos',
+                    component: () => import('@/views/PuntoVenta.vue')
                 }
             ]
         },
