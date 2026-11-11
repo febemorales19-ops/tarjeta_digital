@@ -1,4 +1,8 @@
-# Tarjeta Digital de Empleado
+# Prácticas Vue + PrimeVue
+
+Contiene dos módulos: **Tarjeta Digital** (ruta `/tarjeta`) y **Punto de Venta** (ruta `/pos`).
+
+## Tarjeta Digital de Empleado
 
 Aplicación web hecha con **Vue 3 + PrimeVue** (plantilla Sakai-Vue) que genera el **RFC** de una persona
 a partir de su nombre y fecha de nacimiento, y muestra su **tarjeta digital** con **código de barras**
@@ -18,6 +22,7 @@ npm run build    # genera la carpeta dist/ para publicar
 
 | Archivo | Para qué sirve |
 |---|---|
+| `src/views/PuntoVenta.vue` | Módulo de punto de venta: DataTable, registrar/editar/eliminar y totales |
 | `src/views/TarjetaDigital.vue` | Pantalla principal: formulario + tarjeta + código de barras |
 | `src/utils/rfc.js` | Lógica que calcula el RFC (4 letras + fecha + homoclave + verificador) |
 | `src/router/index.js` | Rutas de la aplicación |
